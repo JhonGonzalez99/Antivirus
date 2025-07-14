@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANTIVIRUS - Registrarse</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>ANTIVIRUS</h1>
+        <h2>registrarse</h2>
+        
+        <form id="registerForm">
+            <div class="input-group">
+                <label for="nombres">nombres</label>
+                <input type="text" id="nombres" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="apellidos">apellidos</label>
+                <input type="text" id="apellidos" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="celular">celular</label>
+                <input type="tel" id="celular" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">contraseña</label>
+                <input type="password" id="password" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="confirmPassword">confirmar contraseña</label>
+                <input type="password" id="confirmPassword" required>
+            </div>
+            
+            <button type="submit" class="login-btn">Registrarse</button>
+        </form>
+        
+        <div class="links-container">
+            <a href="index.html" class="login-link">¿Ya tienes cuenta? Iniciar sesión</a>
+        </div>
+    </div>
+
+    <script src="code-registro.js"></script>
+</body>
+</html>
